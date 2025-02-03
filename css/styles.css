@@ -39,41 +39,42 @@
         }
 
         /* Example content styling */
-        .content {
-            position: relative;
-            z-index: 1;
-            color: white;
-            padding: 20px;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
+.content {
+    /* Keep these styles the same */
+    position: relative;
+    z-index: 1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-        h1, .main-title {
-           position: absolute;
-           top: 30%;  /* Move it higher up from the 50% mark */
-           width: 100%;
-           text-align: center;
-           font-family: din-2014, sans-serif;
-           font-weight: 400;
-           font-style: normal;
-           font-size: 2rem;  /* Make it larger - adjust this value as needed */
-           color: white;
-        }
+h1, .main-title {
+    position: absolute;
+    top: 45%;  /* Adjusted from 30% to 45% to move it down */
+    width: 100%;
+    text-align: center;
+    font-family: din-2014, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    color: white;
+}
 
-        p, .subtitle {
-          position: absolute;
-          top: 75%;  /* Position it below the main title */
-          width: 100%;
-          text-align: center;
-          font-family: din-condensed, sans-serif;
-          font-weight: 300;
-          font-style: normal;
-          font-size: 2rem;  /* Make it larger - adjust this value as needed */
-          color: white;
-        }
+p, .subtitle {
+    position: absolute;
+    top: 55%;  /* Adjusted from 75% to 55% to keep it closer to the title */
+    width: 100%;
+    text-align: center;
+    font-family: din-condensed, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2rem;
+    color: white;
+}
 
         .bold-word {
             font-weight: 800;  /* or bold */
