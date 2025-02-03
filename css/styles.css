@@ -66,9 +66,10 @@ p, .subtitle {
     font-family: din-condensed, sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 2.5rem !important;
+    font-size: 3rem !important;
     color: white;
-    margin: 0;        /* Remove default margins */
+    margin: 0;
+    margin-top: +10vh;/* Remove default margins */
 }
 
         .bold-word {
