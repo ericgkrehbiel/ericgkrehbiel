@@ -7,13 +7,6 @@
             font-style: normal;
         }
 
-html, body {
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    position: relative;
-}
-
         .video-container {
             position: fixed;
             top: 0;
@@ -45,42 +38,36 @@ html, body {
             z-index: -1;
         }
 
-        /* Example content styling */
 .content {
-    /* Keep these styles the same */
     position: relative;
     z-index: 1;
     color: white;
-    padding: 20px;
-    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;  /* This ensures full viewport height */
+    gap: 2rem;         /* Space between elements */
 }
 
 h1, .main-title {
-    position: absolute;
-    top: 45%;  /* Adjusted from 30% to 45% to move it down */
-    width: 100%;
     text-align: center;
     font-family: din-2014, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 2rem;
     color: white;
+    margin: 0;        /* Remove default margins */
 }
 
 p, .subtitle {
-    position: absolute;
-    top: 55%;  /* Adjusted from 75% to 55% to keep it closer to the title */
-    width: 100%;
     text-align: center;
     font-family: din-condensed, sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 2rem;
     color: white;
+    margin: 0;        /* Remove default margins */
 }
 
         .bold-word {
