@@ -51,7 +51,7 @@
             align-items: center;
         }
 
-        h1.main-title {
+        h1, .main-title {
            position: absolute;
            top: 30%;  /* Move it higher up from the 50% mark */
            width: 100%;
@@ -63,7 +63,7 @@
            color: white;
         }
 
-        p.subtitle {
+        p, .subtitle {
           position: absolute;
           top: 75%;  /* Position it below the main title */
           width: 100%;
