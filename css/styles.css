@@ -63,6 +63,15 @@
            color: white;
         }
 
+        p, .subtitle {
+          position: absolute;
+          top: calc(35% + 5rem);  /* Position it below the main title */
+          width: 100%;
+          text-align: center;
+          font-size: 1.8rem;  /* Make it larger - adjust this value as needed */
+          color: white;
+        }
+
         .bold-word {
             font-weight: 800;  /* or bold */
         }
