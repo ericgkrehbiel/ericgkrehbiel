@@ -32,24 +32,18 @@
     </style>
 </head>
 <body>
-     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Welcome to Your Website</h1>
-        <p>This is a boilerplate template to help you get started.</p>
-    </main>
-
-    <footer>
-        <p>&copy; <script>document.write(new Date().getFullYear())</script> Your Name. All rights reserved.</p>
-    </footer>
-
+    <div class="video-container">
+        <video autoplay muted loop playsinline id="myVideo">
+            <source src="your-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="overlay">
+    </div>
+    <div class="content">
+        <h1>Your Content Here</h1>
+        <p>Add any additional content on top of the video background</p>
+    </div>
     <!-- JavaScript -->
     <script src="js/main.js"></script>
 </body>
