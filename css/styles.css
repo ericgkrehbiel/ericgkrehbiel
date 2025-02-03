@@ -21,6 +21,7 @@
             position: absolute;
             min-width: 100%;
             min-height: 100vh;
+            max-height: 100vh;
             width: auto;
             height: auto;
             top: 50%;
