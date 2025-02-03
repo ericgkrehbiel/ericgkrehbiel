@@ -7,6 +7,13 @@
             font-style: normal;
         }
 
+html, body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
         .video-container {
             position: fixed;
             top: 0;
