@@ -47,7 +47,7 @@
            top: 30%;  /* Move it higher up from the 50% mark */
            width: 100%;
            text-align: center;
-           font-size: 4rem;  /* Make it larger - adjust this value as needed */
+           font-size: 25rem;  /* Make it larger - adjust this value as needed */
            color: white;
         }
 
@@ -56,7 +56,7 @@
           top: 55%;  /* Position it below the main title */
           width: 100%;
           text-align: center;
-          font-size: 1.8rem;  /* Make it larger - adjust this value as needed */
+          font-size: 2rem;  /* Make it larger - adjust this value as needed */
           color: white;
         }
 
