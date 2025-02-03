@@ -49,6 +49,9 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            font-family: din-2014, sans-serif;
+            font-weight: 600;
+            font-style: normal;
         }
 
         h1 {
