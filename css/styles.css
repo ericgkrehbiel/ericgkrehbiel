@@ -55,7 +55,7 @@
 
         h1 .main-title {
            position: absolute;
-           top: 30%;  /* Move it higher up from the 50% mark */
+           top: 25%;  /* Move it higher up from the 50% mark */
            width: 100%;
            text-align: center;
            font-family: din-2014, sans-serif;
