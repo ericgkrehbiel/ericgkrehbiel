@@ -59,6 +59,10 @@
             margin-bottom: 1rem;
         }
 
+        .bold-word {
+            font-weight: 800;  /* or bold */
+        }
+
         /* Mobile optimizations */
         @media (max-width: 768px) {
             #myVideo {
