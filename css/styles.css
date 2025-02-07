@@ -58,7 +58,7 @@ h1, .main-title {
     font-size: 5rem !important;
     color: white;
     margin: 0;
-    margin-top: -22vh;/* Remove default margins */
+    margin-top: -35vh;/* Remove default margins */
 }
 
 p, .subtitle {
