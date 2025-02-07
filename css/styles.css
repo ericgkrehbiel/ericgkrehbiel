@@ -50,7 +50,7 @@
     padding-top: 15vh;
 }
 
-h1, .main-title {
+.content .main-title {
     text-align: center;
     font-family: din-2014, sans-serif;
     font-weight: 400;
@@ -61,7 +61,7 @@ h1, .main-title {
     margin-bottom: 4rem;
 }
 
-p, .subtitle {
+.content .subtitle {
     text-align: center;
     font-family: din-condensed, sans-serif;
     font-weight: 300;
@@ -88,7 +88,7 @@ p, .subtitle {
             }
         }
 
-.form-container {
+.content .form-container {
     display: flex;
     gap: 1rem;
     align-items: center;
