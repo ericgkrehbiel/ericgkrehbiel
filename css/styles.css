@@ -44,10 +44,9 @@
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
-    min-height: 100vh;  /* This ensures full viewport height */
-    padding-top: 20vh;
+    min-height: 100vh;
+    /* Remove the padding-top and use margin on the first element instead */
 }
 
 .content .main-title {
@@ -57,8 +56,9 @@
     font-style: normal;
     font-size: 5rem !important;
     color: white;
-    margin: 0;
-    margin-bottom: 5rem;
+    /* Add margin-top instead of padding-top on the container */
+    margin-top: 15vh;
+    margin-bottom: 2rem; /* Reduced from 5rem for tighter spacing */
 }
 
 .content .subtitle {
@@ -68,7 +68,7 @@
     font-style: normal;
     font-size: 3rem !important;
     color: white;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem; /* Reduced from 3rem for tighter spacing */
 }
 
         .bold-word {
@@ -92,7 +92,7 @@
     display: flex;
     gap: 1rem;
     align-items: center;
-    margin-top: 2rem;
+    /* Remove margin-top since we're controlling spacing with subtitle margin */
 }
 
 input[type="email"] {
