@@ -47,7 +47,7 @@
     justify-content: flex-start;
     align-items: center;
     min-height: 100vh;  /* This ensures full viewport height */
-    padding-top: 15vh;
+    padding-top: 18vh;
 }
 
 h1, .main-title {
@@ -58,7 +58,7 @@ h1, .main-title {
     font-size: 5rem !important;
     color: white;
     margin: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 6rem;
 }
 
 p, .subtitle {
