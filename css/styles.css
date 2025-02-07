@@ -44,10 +44,10 @@
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     min-height: 100vh;  /* This ensures full viewport height */
-    gap: 2rem;         /* Space between elements */
+    padding-top: 15vh;
 }
 
 h1, .main-title {
@@ -58,7 +58,7 @@ h1, .main-title {
     font-size: 5rem !important;
     color: white;
     margin: 0;
-    margin-top: 0vh;/* Remove default margins */
+    margin-bottom: 2rem;
 }
 
 p, .subtitle {
@@ -68,8 +68,7 @@ p, .subtitle {
     font-style: normal;
     font-size: 3rem !important;
     color: white;
-    margin: 0;
-    margin-top: +35vh;/* Remove default margins */
+    margin-bottom: 3rem;
 }
 
         .bold-word {
@@ -92,7 +91,7 @@ p, .subtitle {
 .form-container {
     display: flex;
     gap: 1rem;
-    justify-content: center;
+    align-items: center;
     margin-top: 2rem;
 }
 
