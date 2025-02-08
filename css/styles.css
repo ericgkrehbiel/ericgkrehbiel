@@ -58,7 +58,7 @@
     color: white;
     /* Add margin-top instead of padding-top on the container */
     margin-top: 15vh;
-    margin-bottom: 7rem; /* Reduced from 5rem for tighter spacing */
+    margin-bottom: 10rem; /* Reduced from 5rem for tighter spacing */
 }
 
 .content .subtitle {
