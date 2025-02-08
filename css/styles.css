@@ -27,7 +27,7 @@
             object-fit: cover;
         }
 
-        /* Optional overlay to make text more readable */
+        /* Optional overlay to make text more readable*/
         .overlay {
             position: fixed;
             top: 0;
