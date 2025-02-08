@@ -148,10 +148,10 @@ button::before {
   );
 }
 
-.form-button-wrapper:hover {
+button:hover {
   transform: translateY(-3px);
 }
 
-.sqs-button-element--primary .error {
+.error {
   background: linear-gradient(180deg, #60c7e3 0%, #007595 100%) !important;
 }
