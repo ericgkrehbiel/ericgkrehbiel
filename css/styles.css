@@ -27,14 +27,14 @@
             object-fit: cover;
         }
 
-        /* Optional overlay to make text more readable*/
+        /* overlay to make text more readable*/
         .overlay {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.15); /* Adjust opacity as needed */
+            background: rgba(0, 0, 0, 0.15);
             z-index: -1;
         }
 
@@ -46,7 +46,6 @@
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    /* Remove the padding-top and use margin on the first element instead */
 }
 
 .content .main-title {
@@ -56,9 +55,8 @@
     font-style: normal;
     font-size: 5rem !important;
     color: white;
-    /* Add margin-top instead of padding-top on the container */
     margin-top: 18vh;
-    margin-bottom: 9rem; /* Reduced from 5rem for tighter spacing */
+    margin-bottom: 9rem;
 }
 
 .content .subtitle {
@@ -68,11 +66,11 @@
     font-style: normal;
     font-size: 3rem !important;
     color: white;
-    margin-bottom: 5rem; /* Reduced from 3rem for tighter spacing */
+    margin-bottom: 5rem;
 }
 
         .bold-word {
-            font-weight: 800;  /* or bold */
+            font-weight: 800;
         }
 
         /* Mobile optimizations */
@@ -122,13 +120,13 @@ button[type="submit"] {
   text-shadow: 0 -1px 1px #080808;
   box-shadow: inset 0 1px 3px rgba(255,255,255,0.3), 0 4px 8px rgba(0,0,0,0.2);
   transition: transform 0.2s ease;
-  z-index: 1; /* Add this */
+  z-index: 2;
 }
 
 button[type="submit"]::before {
   content: "";
   position: absolute;
-  z-index: -1;
+  z-index: -2;
   top: -3px;
   bottom: -3px;
   left: -3px;
