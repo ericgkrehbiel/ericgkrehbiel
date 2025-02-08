@@ -57,7 +57,7 @@
     font-size: 5rem !important;
     color: white;
     /* Add margin-top instead of padding-top on the container */
-    margin-top: 20vh;
+    margin-top: 18vh;
     margin-bottom: 10rem; /* Reduced from 5rem for tighter spacing */
 }
 
@@ -68,7 +68,7 @@
     font-style: normal;
     font-size: 3rem !important;
     color: white;
-    margin-bottom: 6rem; /* Reduced from 3rem for tighter spacing */
+    margin-bottom: 7rem; /* Reduced from 3rem for tighter spacing */
 }
 
         .bold-word {
