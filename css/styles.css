@@ -139,6 +139,7 @@ button[type="submit"]::before {
 
 button[type="submit"]:hover {
   transform: translateY(-3px);
+  background: linear-gradient(180deg, #60c7e3 0%, #007595 100%);
 }
 
 .error {
