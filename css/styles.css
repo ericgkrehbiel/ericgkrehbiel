@@ -94,7 +94,7 @@
 }
 
 input[type="email"] {
-    padding: 1rem 1rem;
+    padding: 0.65rem 1rem;
     width: 300px;
     border: none;
     border-radius: 9999px;
